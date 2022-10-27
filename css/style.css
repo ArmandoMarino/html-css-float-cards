@@ -87,6 +87,5 @@ img{
 }
 
 .card :last-child{
-    cursor: pointer;
     color: var(--light-blue);
 }
