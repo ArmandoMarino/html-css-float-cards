@@ -4,3 +4,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/*GENERIC*/
+.container{
+    width: 1080px;
+}
+
+.font{
+    font-size: 10px;
+    font-family: ;
+}
+
+.font-small{
+    
+}
