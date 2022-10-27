@@ -68,7 +68,6 @@ img{
     width: 100px;
 }
 
-
 .clearfix::after{
     content:'';
     clear: both;
@@ -81,8 +80,6 @@ img{
     width: calc(100% / 3 - 2rem);
     background-color: var(--black);
     margin: 0 1rem;
-    line-height: 1.5rem;
-    vertical-align: middle;
 }
 
 .card :last-child{
