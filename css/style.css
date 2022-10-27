@@ -13,7 +13,6 @@
 }
 
 /*GENERIC*/
-
 body{
     font-size: 15px;
     font-family: 'Fredoka', sans-serif;
@@ -24,27 +23,19 @@ body{
     margin: 0 auto;
 }
 
-
-.font{
-    
+h1{
+    color: var(--fucsia);
 }
 
-img{
-    width: 80px;
-}
-
-
-.font-small{
-    
+h3{
+    color: white;
 }
 
 
 /*MAIN*/
-
 header, .article{
     margin: 2rem 0;
     text-align: center;
-    border: solid black;
 }
 
 h1{
@@ -52,13 +43,21 @@ h1{
     font-family: 'Fredoka One', cursive;
 }
 
+p{
+    
+}
+
+/*CARD*/
 section{
     margin-bottom: 2rem;
 }
 
-.image-clear{
+img{
     float: left;
+    padding-right: 1rem;
+    width: 100px;
 }
+
 
 .clearfix::after{
     content:'';
@@ -66,14 +65,10 @@ section{
     display: table;
 }
 
-.row{
-    margin: 
-}
-
 .card{
     float: left;
-    text-align: center;
+    text-align: left;
     width: calc(100% / 3 - 2rem);
-    border: 2px solid black;
+    background-color: var(--black);
     margin: 0 1rem;
 }
