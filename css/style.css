@@ -54,6 +54,7 @@ p{
 
 #sotto-titolo{
     color: var(--black);
+    font-weight: 600;
 }
 
 /*CARD*/
