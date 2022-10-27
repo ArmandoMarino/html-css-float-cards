@@ -15,6 +15,7 @@
 /*GENERIC*/
 
 body{
+    font-size: 15px;
     font-family: 'Fredoka', sans-serif;
 }
 
@@ -25,11 +26,11 @@ body{
 
 
 .font{
-    font-size: 15px;
+    
 }
 
-.float-left{
-    float: left;
+img{
+    width: 80px;
 }
 
 
@@ -43,6 +44,7 @@ body{
 header, .article{
     margin: 2rem 0;
     text-align: center;
+    border: solid black;
 }
 
 h1{
@@ -50,5 +52,28 @@ h1{
     font-family: 'Fredoka One', cursive;
 }
 
-.colonna{
+section{
+    margin-bottom: 2rem;
+}
+
+.image-clear{
+    float: left;
+}
+
+.clearfix::after{
+    content:'';
+    clear: both;
+    display: table;
+}
+
+.row{
+    margin: 
+}
+
+.card{
+    float: left;
+    text-align: center;
+    width: calc(100% / 3 - 2rem);
+    border: 2px solid black;
+    margin: 0 1rem;
 }
